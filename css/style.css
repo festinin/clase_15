@@ -1,0 +1,125 @@
+.caja-azul{
+background-color: rgba(221,244,255,1);
+width: 1440px;
+height: 777px;
+font-family: 'Montserrat';
+}
+
+.caja{
+    background-color: rgb(255, 255, 255);
+    width: 1440px;
+    height: 1833px;
+    font-family: 'Montserrat';
+    }
+
+    .caja_ayuda{
+        background-color: rgba(221,244,255,1);
+        width: 576px;
+        height: 386px;
+        position: relative;
+        top: 200px;
+        font-family: 'Montserrat';
+
+      
+        }
+
+.caja_rosada{
+    background-color: rgb(255, 242, 243,1);
+    width: 1440px;
+    height: 718px;
+    display: flex;
+    font-family: 'Montserrat';
+    }
+
+  .caja-blanca_1{
+     background-color: rgba(255, 255, 255);
+     width: 328px;
+     height: 268px;
+     position: relative;
+     top: 268px;
+     font-family: 'Montserrat';
+     
+     }
+
+     
+  .caja-blanca_2{
+    background-color: rgb(255, 255, 255);
+    width: 328px;
+    height: 268px;
+    position: relative;
+    top: 268px;
+
+    left: 20px;
+    font-family: 'Montserrat';
+    }
+
+    .caja-blanca_3{
+        background-color: rgba(255, 255, 255);
+        width: 328px;
+        height: 268px;
+        position: relative;
+        top: 268px;
+        left: 40px;
+        font-family: 'Montserrat';
+        }
+
+    .caja_white {
+        width: 1440px;
+    height: 264px;
+    display: flex; 
+    font-family: 'Montserrat';
+    
+    }
+        
+
+ .caja_verde_1{
+            width: 240px;
+            height: 104px;
+            position: relative;
+            font-family: 'Montserrat';
+            
+            left: 140px;
+            text-align: center;
+        }
+        .caja_verde_2{
+            width: 240px;
+            height: 104px;
+            position: relative;
+            font-family: 'Montserrat';
+          
+            left: 160px;
+            text-align: center;   
+        }
+        .caja_verde_3{
+            width: 240px;
+            height: 104px;
+            position: relative;
+            font-family: 'Montserrat';
+           
+            left: 180px;
+            text-align: center;   
+        }
+        .caja_verde_4{
+            width: 240px;
+            height: 104px;
+            position: relative;
+            font-family: 'Montserrat';
+            
+            left: 200px;
+            text-align: center; 
+        }
+
+        
+        .libro_op {
+
+            width: 72px;
+            height: 72px;
+            display: flex; 
+        }
+        footer  {
+            width: 1440px;
+            height: 74px;
+            background-color:     rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+            font-family: 'Montserrat';
+        }
