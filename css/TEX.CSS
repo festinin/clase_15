@@ -51,13 +51,22 @@ nav a {
     color:   rgba(37, 43, 66, 1);
   }
 
+  .caja-TEST {
+    width: 1440px;
+    height: 100px;
+    position: absolute;
+    top: 1300px; /* Ajusta la posición desde arriba */
+     left: 170px; /* Ajusta la posición PARA LA DERECHA */
+    
+
+  } 
   .caja-blanca_1 h2, .caja-blanca_2 h2, .caja-blanca_3 h2  {
     font-size: 16px;
     line-height: 24px;
     color:rgba(37, 43, 66, 1);
-    position: absolute;
-    top: 120px; /* Ajusta la posición desde arriba */
-     left: 50px; /* Ajusta la posición desde la izquierda */
+    position: relative;
+    top: 50px;/* Ajusta la posición desde arriba */
+     left: 40px; /* Ajusta la posición desde la izquierda */
   }
 
   .caja-blanca_1 ul, .caja-blanca_2 ul, .caja-blanca_3 ul  {
@@ -65,8 +74,82 @@ nav a {
     line-height: 20px;
     color:  rgba(115, 115, 115, 1);
     list-style-type: none;
-    position: absolute;
-    top: 170px; /* Ajusta la posición desde arriba */
-     left: 10px; /* Ajusta la posición desde la izquierda */
+    position: relative;
+    top: 60px; /* Ajusta la posición desde arriba */
+     
   }
 
+ 
+
+  .circulo_1 img, .circulo_2 img , .circulo_3 img {
+
+    position: absolute;
+    top: 50%; /* Centrado vertical */
+    left: 50%; /* Centrado horizontal */
+    transform: translate(-50%, -50%);
+      height: auto; /* Altura automática para mantener la proporción */
+      display: block; /* Asegura que la imagen sea un bloque */
+}
+
+.caja_NOW h2, .btn_upper{
+  font-size: 14px;
+  
+  color: white;
+  text-align: center;
+  font-family: 'Montserrat';
+
+
+}
+
+.caja_NOW_1 h2, .btn, .btn_upper {
+  font-size: 14px;
+  color: rgba(150, 187, 124, 1);
+  text-align: center;
+ font-family: 'Montserrat'
+}
+
+
+.caja_NOW a:link, .caja_NOW a:visited, .caja_NOW a:hover, .caja_NOW a:active,
+.btn_upper a:link, .btn_upper a:visited, .btn_upper a:hover, .btn_upper a:active
+{
+
+color: white;
+}
+
+.caja_NOW_1 a:link, .caja_NOW_1 a:visited, .caja_NOW_1 a:hover, .caja_NOW_1 a:active,
+.btn a:link, .btn a:visited, .btn a:hover, .btn a:active
+{
+
+color: rgba(150, 187, 124, 1);
+}
+
+
+body {
+  margin: 0;
+  font-family: 'Montserrat'
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: #25D366; /* Color verde similar al de WhatsApp */
+  border-radius: 50%; /* Hace que el div tenga forma de círculo */
+  position: fixed; /* Permite que el círculo sea fijo en la vista */
+  bottom: 20px; /* Distancia desde el borde inferior */
+  right: 20px; /* Distancia desde el borde derecho */
+  z-index: 999; /* Asegura que esté por encima de otros elementos */
+  
+}
+
+.circle i {
+
+  position: absolute;
+  top: 50%; /* Centrado vertical */
+  left: 30%; /* Centrado horizontal */
+  
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center; /* Centra horizontalmente el contenido */
+  align-items: center; /* Centra verticalmente el contenido */
+  font-size: 3.5rem; /* Tamaño del ícono */
+}
