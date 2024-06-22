@@ -212,10 +212,7 @@ font-family: 'Montserrat';
       align-items: center;
       border-radius: 5px; /* Radio de redondeo de 20 píxeles para todas las esquinas */
       
-      content: "»";
-      margin-left: 10px;
-      color: white;
-
+   
     }
 
     .logo{
@@ -231,3 +228,5 @@ font-family: 'Montserrat';
       align-items: center;
       border-radius: 5px; /* Radio de redondeo de 20 píxeles para todas las esquinas */
     }
+
+  

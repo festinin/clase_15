@@ -153,3 +153,16 @@ body {
   align-items: center; /* Centra verticalmente el contenido */
   font-size: 3.5rem; /* Tamaño del ícono */
 }
+
+.circle:hover {
+
+  scale: 2;
+}
+
+div circle{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
